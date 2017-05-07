@@ -1,0 +1,222 @@
+             
+           h1 {
+                color: #84dccf; /* Adds color to the text */ 
+                font-size: 50px; /* Changes the size of the text */
+                font-family: 'Pangolin', cursive; /* Changes the font type of the text */
+                text-align: left; /* Aligns the text left */
+                left: 5px; /* Changes the position of the text */
+                position: relative; /* Changes the text position type to relative */
+             }
+             
+            p {
+                color: #5762d5; /* Adds color to the text */ 
+                font-size: 36px;/* Changes the size of the text */
+                font-family: 'Sansita', sans-serif; /* Changes the font type of the text */
+                bottom: 15px; /* Changes the position of the text */
+                position: relative; /* Changes the text position type to relative */
+            }
+            
+            p1 { 
+                color: black; /* Adds color to the text */
+                Font-size: 45px; /* Changes the size of the text */
+                font-family: 'Slabo 27px', serif; /* Changes the font type of the text */
+                text-align: center; /* Aligns the text to the left */
+                left: 15px; /* Changes the position of the text */
+                top: 10px; /* Changes the position of the text */
+                position: relative; /* Changes the text position type to relative */
+                
+            }
+
+            p6 {
+               color: aquamarine; /* Adds color to the text */
+               position: relative; /* Changes the text position type to relative */
+               font-family: 'Roboto', sans-serif; /* Changes the font type of the text */
+               top: 600px; /* Changes the position of the text */
+               left: 5px /* Changes the position of the text */
+                
+               
+                
+            }
+            
+            body {
+                Background-color: #829cbc; /* Changes the background color of the whole page */
+            
+            }
+            
+            a {
+                Display: block;
+            }
+
+            .EasterEgg { /* Allows you to style the div yu gave a class to */
+                 position: relative; /* Changes the position type of the div */
+                 width: 0.5px; /* Changes the width of the div */
+                 height: 0.5px; /* Changes the height of the div */
+            }
+            
+            .EasterEgg a {
+                 position: absolute; /* Changes the position type of the div to absolute */
+                 width: 100%; /* Changes the width of the div */
+                 height: 100%;/* Changes the height of the div */
+                 top: 0; /* Changes the position of the div */
+                 left: 0; /* Changes the position of the div */
+                 text-decoration: none; /* No underlines on the link */ 
+                 z-index: 10;  /* Places the link above everything else in the div */
+                 opacity: 0; /* Fix to make div clickable in IE */
+                 filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+            }
+            
+            
+            .BlogButton {
+                 position: relative; /* Changes the position type of the div */
+                 width: 100%; /* Sets the width of the div */
+                 Background-color: #2961aa; /* Changes the backgrounf color of the div */
+                 height: 75px; /* Sets the height of the div */
+                 bottom: 4px; /* Changes the postition of the div */
+            }
+            
+            .BlogButton a {
+                 position: absolute; /* Changes the position type of the div to absolute */
+                 width: 100%; /* Changes the width of the div */
+                 height: 100%; /* Changes the height of the div */
+                 top: 0; /* Changes the position of the div */
+                 left: 0; /* Changes the position of the div */
+                 text-decoration: none; /* No underlines on the link */
+                 z-index: 10; /* Places the link above everything else in the div */
+                 background-color: blue; /* Fix to make div clickable in IE */
+                 opacity: 0; /* Fix to make div clickable in IE */
+                 filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+            }
+
+            .BlogButton:hover {
+                 background-color:#94f6f2; /* Changes the color of the div when you hover over it to a lighter blue*/
+                        }  
+            
+            .SMCMButton {
+                 position: relative; /* Changes the position type of the div */
+                 width: 100%; /* Sets the width of the div */
+                 Background-color: #609ddb; /* Sets the background colour of the div to blue */
+                 height: 75px; /* Changes the height of the div */
+                 bottom: 4px; /* Changes the position of the div */
+                
+            }
+            
+            .SMCMButton a {
+                 position: absolute; /* Changes the position type of the div to absolute */
+                 width: 100%; /* Changes the width of the div */
+                 height: 100%; /* Changes the height of the div */
+                 top: 0; /* Changes the position of the div */
+                 left: 0; /* Changes the position of the div */
+                 text-decoration: none; /* No underlines on the link */
+                 z-index: 10; /* Places the link above everything else in the div */
+                 background-color: blue; /* Fix to make div clickable in IE */
+                 opacity: 0; /* Fix to make div clickable in IE */
+                 filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+            }
+
+            .SMCMButton:hover {
+                 background-color:#94f6f2; /* Changes the color of the div when you hover over it to a lighter blue*/
+            }
+
+            .MYAHButton {
+                 position: relative; /* Changes the position type of the div to relative */
+                 width: 100%; /* Changes the width of the div */
+                 Background-color: #70adea; /* Changes the background colour of the div */
+                 height: 75px; /* Changes the height of the div */
+                 bottom: 4px; /* Changes the position of the div */
+                
+            }
+            
+            .MYAHButton a {
+                 position: absolute; /* Changes the position type of the div to absolute */
+                 width: 100%; /* Changes the width of the div */
+                 height: 100%; /* Changes the height of the div */
+                 top: 0; /* Changes the position of the div */
+                 left: 0; /* Changes the position of the div */
+                 text-decoration: none; /* No underlines on the link */
+                 z-index: 10; /* Places the link above everything else in the div */
+                 background-color: blue; /* Fix to make div clickable in IE */
+                 opacity: 0; /* Fix to make div clickable in IE */
+                 filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+            }
+
+            .MYAHButton:hover {
+                 background-color:#94f6f2; /* Changes the color of the div when you hover over it to a lighter blue*/
+            }
+            
+            .HowColdIsIt {
+                 position: relative; /* Changes the position type of the div to relative */
+                 width: 100%; /* Changes the width of the div */
+                 Background-color: #77b6f4; /* Changes the background colour of the div */
+                 height: 75px; /* Changes the height of the div */
+                 bottom: 4px;/* Changes the position of the div */
+            }
+            
+            .HowColdIsIt a {
+                 position: absolute; /* Changes the position type of the div to absolute */
+                 width: 100%; /* Changes the width of the div */
+                 height: 100%; /* Changes the height of the div */
+                 top: 0; /* Changes the position of the div */
+                 left: 0; /* Changes the position of the div */
+                 text-decoration: none; /* No underlines on the link */
+                 z-index: 10; /* Places the link above everything else in the div */
+                 background-color: blue; /* Fix to make div clickable in IE */
+                 opacity: 0; /* Fix to make div clickable in IE */
+                 filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+            }
+
+            .HowColdIsIt:hover {
+                 background-color:#94f6f2; /* Changes the color of the div when you hover over it to a lighter blue*/
+            }
+            
+            .ResumeButton {
+                 position: relative; /* Changes the divs position type to relative */
+                 width: 100%; /* Sets the width of the div */
+                 background-color: #458cd3; /* Sets the background colour of the div to blue */
+                 height: 75px; /* sets the height of the div */
+                 bottom: 4px; /* Changes the position of the div */
+            }
+            
+            .ResumeButton a {
+                 position: absolute; /* Changes the position type of the div to absolute */
+                 width: 100%; /* Changes the width of the div */
+                 height: 100%; /* Changes the height of the div */
+                 top: 0; /* Changes the position of the div */
+                 left: 0; /* Changes the position of the div */
+                 text-decoration: none; /* No underlines on the link */
+                 z-index: 10; /* Places the link above everything else in the div */
+                 background-color: blue; /* Fix to make div clickable in IE */
+                 opacity: 0; /* Fix to make div clickable in IE */
+                 filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+            }
+
+            .ResumeButton:hover {
+                 background-color:#94f6f2; /* Changes the color of the div when you hover over it to a lighter blue*/
+            }
+            .rightside {
+                width: 60%; /* Sets the width of the div */
+                height:150px; /* sets the height of the div */
+                Background-color: #1d3461; /* Sets the background colour of the div to blue */
+                float: left; float: left; /* Makes the div float left */
+                
+            }
+            
+            .ProfilePicture {
+                background-image: url("profile-picture.png"); /* Sets the backround of the div to "profile-picture.png */
+                background-size: cover; /* Makes the image cover the div so theres only 1 image */
+                height: 618px; /* sets the height of the div */
+                width: 40%; /* Sets the width of the div */
+                float: left; /* Makes the div float left */
+            } 
+            
+        
+            #leftside {
+                Width: 100%; /* Sets the width of the div */
+                height: 93px; /* sets the height of the div */
+                Background-color: Black; /* Sets the background colour of the div to black */
+                text-align: center; /* alligns the text to the center */
+                bottom: 4px;  /* Changes the position of the div */
+                position: relative; /* Changes the divs position type to relative */
+                
+                float: left;/* Makes the div float left */
+            }
+            

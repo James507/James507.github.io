@@ -1,0 +1,44 @@
+.HomepageButton {
+     position: relative;
+     width: 150px;
+     height: 40px;
+     background-color: black;
+     margin-right: 50px;
+     text-align: left;
+     border-style: solid;
+     border-color: grey;
+}
+            
+.HomepageButton a {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     text-decoration: none; /* No underlines on the link */
+     z-index: 10; /* Places the link above everything else in the div */
+     background-color: blue; /* Fix to make div clickable in IE */
+     opacity: 0; /* Fix to make div clickable in IE */
+     filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+    
+}
+
+p21 {
+    color: lightblue;
+    font-family: 'NTR', sans-serif;
+    text-align: center;
+    left: 10px;
+    position: relative;
+    top: 4px;
+}
+
+body {
+    background-image: url(Bee.jpg)
+}
+
+p {
+    color: azure;
+    font-family: 'Baloo Bhaina', cursive;
+    
+}
+

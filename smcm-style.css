@@ -1,0 +1,178 @@
+H1 { 
+     Color: Red;
+    font-family: 'Bree Serif', serif;
+    font-size: 40px;
+}
+
+p1 {
+    color: white;
+    font-family: 'Capriola', sans-serif;
+    font-size: 25px;
+    top: 90px;
+    left: 20px;
+    position: relative;
+
+    
+}
+
+body {
+    Background-color: #3fb1b5;
+}
+
+html,body {
+    overflow-x: hidden;
+}
+
+p21 {
+    color: lightblue;
+    font-family: 'NTR', sans-serif;
+    text-align: center;
+    left: 10px;
+    position: relative;
+    top: 4px;
+}
+.TopBar {
+     Width: 100%;
+     Height: 200px;
+     background-color: #80ff72;
+     
+}
+ 
+.TitleDiv {
+     position: absolute;
+     top: 15px;
+     text-align: center;
+     width: 100%;
+     
+ }
+
+.HomepageButton {
+     position: relative;
+     width: 150px;
+     height: 40px;
+     background-color: #1f487e;
+     margin-right: 50px;
+     top: 15px;
+     left: 15px;
+     text-align: left;
+     border-style: solid;
+     border-color: aqua;
+}
+            
+.HomepageButton a {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     text-decoration: none; /* No underlines on the link */
+     z-index: 10; /* Places the link above everything else in the div */
+     background-color: blue; /* Fix to make div clickable in IE */
+     opacity: 0; /* Fix to make div clickable in IE */
+     filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+     
+}
+
+.HomepageButton:hover {
+    background-color: #009d1e;
+}
+
+.LeftSide {
+     Width: 49.8%;
+     Height: 300px;
+     Background-color: #141414;
+     margin-right: 1px;
+     margin-bottom: 1px;
+     
+     Float: left;
+ }
+
+
+.FacebookButton {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    left: 3px;
+    top: 50px;
+    
+}
+            
+.FacebookButton a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none; 
+    z-index: 10; 
+    background-color: blue; 
+    opacity: 0; 
+    filter: alpha(opacity=1);
+}
+
+.TwitterButton {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    bottom: 150px;
+    left: 209px;
+    
+    float: left;
+}
+            
+.TwitterButton a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none; 
+    z-index: 10; 
+    background-color: blue; 
+    opacity: 0; 
+    filter: alpha(opacity=1);
+}
+
+.InstagramButton {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    left: 226px;
+    bottom: 150px;
+    
+    float: left;
+}
+            
+.InstagramButton a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none; 
+    z-index: 10; 
+    background-color: blue; 
+    opacity: 0; 
+    filter: alpha(opacity=1);
+}
+
+.RightSide {
+     Width: 49.8%;
+     Height: 300px;
+     Background-color: #141414;
+     margin-right: 1px;
+     margin-bottom: 1px;
+     
+     
+     Float: right;
+ }
+
+.BottomDiv {
+    background-color: #141414;
+    Width: 100%;
+    Height: 85px;
+    top: 500px;
+    margin-top: 1px;
+    
+    float: left;
+}
