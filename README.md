@@ -1,2 +1,2 @@
 # JamesGorman.github.io
-my page
+If you see this somethings probably gone wrong 
